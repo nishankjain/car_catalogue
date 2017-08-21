@@ -1,8 +1,8 @@
-'use strict';
+// 'use strict';
 
-var cirtruFilters = angular.module('cirtruFilters', []);
+var demoAppFilters = angular.module('demoAppFilters', []);
 
-cirtruFilters.filter('carsFilter', function () {
+demoAppFilters.filter('carsFilter', function () {
     return function (cars, filterObject) {
         var carsArray = cars;
         var returnArray = [];

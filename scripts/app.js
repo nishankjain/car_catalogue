@@ -1,6 +1,6 @@
-'use strict';
+// 'use strict';
 
-var cirtruApp = angular.module('cirtru', [
-  'cirtruControllers',
-  'cirtruFilters'
+var demoApp = angular.module('demoApp', [
+  'demoAppControllers',
+  'demoAppFilters'
 ]);

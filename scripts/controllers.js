@@ -1,8 +1,8 @@
-'use strict';
+// 'use strict';
 
-var cirtruControllers = angular.module('cirtruControllers', []);
+var demoAppControllers = angular.module('demoAppControllers', []);
 
-cirtruControllers.controller('carsController', function() {
+demoAppControllers.controller('carsController', function() {
 	var carsCtrl = this;
 
 	carsCtrl.data = [
